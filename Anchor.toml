@@ -5,12 +5,12 @@ package_manager = "npm"
 resolution = true
 skip-lint = false
 
-[programs.localnet]
-pension_chain = "BZsjYUuSohczPCTGFy4R1u9LAUHiAMtHEZfrsgMURQSV"
+[programs.devnet]
+pension_chain = "4ssu3jphFPGkmBqLkfADP48pSSvYq8rVoCSZVZtzfCHp"
 
 [provider]
-cluster = "localnet"
-wallet = "~/.config/solana/id.json"
+cluster = "devnet"
+wallet = "/home/alex/.config/solana/id.json"
 
 [scripts]
 test = "cargo test"

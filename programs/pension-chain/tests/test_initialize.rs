@@ -21,7 +21,7 @@ fn test_initialize() {
     svm.airdrop(&payer.pubkey(), 1_000_000_000).unwrap();
 
     let instruction = Instruction::new_with_bytes(
-        program_id,
+            program_id,
         &pension_chain::instruction::Initialize {}.data(),
         pension_chain::accounts::Initialize {}.to_account_metas(None),
     );

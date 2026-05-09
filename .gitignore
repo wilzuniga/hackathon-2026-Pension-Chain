@@ -6,3 +6,17 @@ node_modules
 test-ledger
 .yarn
 .surfpool
+
+# Next.js build
+app/.next/
+app/out/
+
+# Env files (contain secrets)
+.env
+.env.local
+.env*.local
+oracle/.env
+
+# Solana keypairs
+**/*-keypair.json
+wallet.json
